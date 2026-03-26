@@ -13,7 +13,9 @@ theme = "github.com/nicokaiser/hugo-theme-gallery/v4"
 [params]
   title = "Gallery"
   description = "Photo Gallery"
-  author = "Manuele Carlini"
+  [params.author]
+    name = "Manuele Carlini"
+    email = "mc4rlini@icloud.com"
   # Dark theme: "auto", "dark", "light"
   colorScheme = "auto"
   # Number of columns in album grid (default: 3)
